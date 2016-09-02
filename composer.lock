@@ -4,9 +4,44 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fb7144b1c9ddaa5a1f654e00ca018bcb",
-    "content-hash": "d8ac779730837ec439bd13e68e977d67",
+    "hash": "5a822ed393b22db649b6853ab81a29a1",
+    "content-hash": "e2ed0340c93434a4fd5475490882206a",
     "packages": [
+        {
+            "name": "horsaw/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/horsaw/framework.git",
+                "reference": "bb788920df3855b4ed199fc348277d9098000b87"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/horsaw/framework/zipball/bb788920df3855b4ed199fc348277d9098000b87",
+                "reference": "bb788920df3855b4ed199fc348277d9098000b87",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Horsaw\\": "src/Horsaw/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Joro Stoyanov",
+                    "email": "stoyanov.gs@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/horsaw/framework/tree/master",
+                "issues": "https://github.com/horsaw/framework/issues"
+            },
+            "time": "2016-09-02 22:20:25"
+        },
         {
             "name": "htmlburger/carbon-fields",
             "version": "v1.3",
@@ -115,9 +150,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "horsaw/framework": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.4"
+    },
     "platform-dev": []
 }
