@@ -1,0 +1,7 @@
+{
+	"name": "horsaw/theme",
+	"version": "0.1",
+	"require": {
+		"htmlburger/carbon-fields": "^1.3"
+	}
+}
