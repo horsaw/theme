@@ -11,5 +11,5 @@
 
 use Horsaw\Helpers\Taxonomy;
 
-Taxonomy::register( 'horsaw_category', __( 'Category', 'horsaw-theme' ), __( 'Categories', 'horsaw-theme' ) )
+Taxonomy::make( 'horsaw_category', __( 'Category', 'horsaw-theme' ), __( 'Categories', 'horsaw-theme' ) )
 	->set_post_types( [ 'post', 'page' ] );

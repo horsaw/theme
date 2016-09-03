@@ -14,6 +14,6 @@ require_once HORSAW_THEME . 'vendor/autoload.php';
 | Initialize the Application
 |--------------------------------------------------------------------------
 */
-$horsaw_app = new \Horsaw\Theme\App;
+$horsaw_app = \Horsaw\Theme\App::get_instance();
 
 $horsaw_app->init();

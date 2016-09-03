@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/horsaw/framework.git",
-                "reference": "d276f26c399d66d498c8da143cf61eb3d32ccc42"
+                "reference": "553d1f811ce4d6f93cb96a5ab2bd283e85d24e02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/horsaw/framework/zipball/d276f26c399d66d498c8da143cf61eb3d32ccc42",
-                "reference": "d276f26c399d66d498c8da143cf61eb3d32ccc42",
+                "url": "https://api.github.com/repos/horsaw/framework/zipball/553d1f811ce4d6f93cb96a5ab2bd283e85d24e02",
+                "reference": "553d1f811ce4d6f93cb96a5ab2bd283e85d24e02",
                 "shasum": ""
             },
             "require": {
@@ -44,7 +44,7 @@
                 "source": "https://github.com/horsaw/framework/tree/master",
                 "issues": "https://github.com/horsaw/framework/issues"
             },
-            "time": "2016-09-03 08:41:15"
+            "time": "2016-09-03 10:49:10"
         },
         {
             "name": "htmlburger/carbon-fields",
