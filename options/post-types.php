@@ -11,7 +11,7 @@
 |
 */
 
-use Horsaw\Post_Type;
+use Horsaw\Helpers\Post_Type;
 
 Post_Type::register( 'horsaw_testimonial', __( 'Testimonial', 'horsaw-theme' ), __( 'Testimonials', 'horsaw-theme' ) )
 	->set_menu_icon( 'dashicons-format-quote' );
